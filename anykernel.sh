@@ -10,12 +10,12 @@ do.modules=1
 do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=willow
-device.name2=ginkgo
+device.name1=ginkgo
+device.name2=willow
 device.name3=
 device.name4=
 device.name5=
-supported.versions=10 - 11
+supported.versions=9 - 11
 supported.patchlevels=
 '; } # end properties
 
@@ -42,4 +42,5 @@ dump_boot;
 
 write_boot;
 ## end install
+
 
